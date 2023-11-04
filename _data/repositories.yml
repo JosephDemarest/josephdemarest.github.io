@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - JosephDemarest
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - JosephDemarest/Leetcode-Solutions
+  - JosephDemarest/Ambition_Keyboard_PCB
+  - JosephDemarest/snagJWST
+  - JosephDemarest/React-REST-Employee-App

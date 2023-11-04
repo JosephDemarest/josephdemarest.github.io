@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /cats/
 title: cats
-description: My cat family
+description: My cat family 
 nav: true
 nav_order: 6
 
@@ -14,14 +14,13 @@ profiles:
     content: beerus.md
     image_circular: false # crops the image to make it circular
     more_info:
-    image: beerus_pic.jpg
     image: peppa_pic.jpg
     content: peppa.md
     image_circular: false # crops the image to make it circular
     more_info:
     - align: right
     image: dee_dee_pic.jpg
-    content: dee_dee.md
+    content: deedee.md
     image_circular: false # crops the image to make it circular
     more_info:
   - align: left
@@ -47,11 +46,6 @@ profiles:
   - align: left
     image: tee_tee_pic.jpg
     content: teetee.md
-    image_circular: false # crops the image to make it circular
-    more_info:
-    - align: right
-    image: dee_dee_pic.jpg
-    content: deedee.md
     image_circular: false # crops the image to make it circular
     more_info:
   - align: left

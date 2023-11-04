@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Beam Profiler
-description: LAser Beam Profiler
+description: Laser Beam Profiler
 img: assets/img/12.jpg
 importance: 1
 category: work

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "The measure of intelligence is the ability to change." - Albert Einstein
+subtitle: "The measure of intelligence is the ability to change. - Albert Einstein" 
 
 profile:
   align: right

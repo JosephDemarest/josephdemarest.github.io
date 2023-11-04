@@ -1,3 +1,11 @@
-I am a highly versatile engineer with expertise in `computer science`, `electrical engineering`, and `additive manufacturing`. My experience spans a wide array of [projects](https://demarest.dev/projects/), from software development to hardware design, and many, many more.
+As a dynamic and multifaceted engineer, I possess comprehensive expertise in `computer science`, `electrical engineering`, and `additive manufacturing`. My professional journey is documented through an extensive portfolio of [projects](https://demarest.dev/projects/), showcasing a spectrum from intricate software development to the nuanced art of hardware design, among an eclectic mix of other undertakings.
 
-I pride myself on my ability to `bridge multiple disciplines`, consistently delivering innovative and efficient solutions. I am always up for new challenges, and I leverage my diverse technical background to tackle complex problems head-on. My passion for continuous learning drives me to constantly expand my skills across various domains.
+My core strength lies in my exceptional ability to `bridge multiple disciplines`, a skill that empowers me to craft innovative and streamlined solutions. This interdisciplinary approach has become my trademark in the engineering sphere, and I thrive when presented with new puzzles to `solve`. By drawing from my broad-based technical acumen, I am well-equipped to confront and dismantle even the most daunting of problems.
+
+Beyond my engineering talents, I am fervently committed to perpetual learning, an enthusiasm that fuels my ambition to continuously broaden my expertise across a vast range of subjects.
+
+In my personal pursuits, I am profoundly passionate about all things technology, science, and the cosmos — from the enigmas of space and astronomy to the latest tech breakthroughs. This zeal extends beyond mere interest; it is the backbone of my professional philosophy. I possess the unique capability to assimilate concepts from multiple disciplines, including those outside my immediate expertise, to forge exceptional results.
+
+My ethos is one of ceaseless creation and education. I am devoted to a life where making and learning go hand-in-hand, ensuring that with each new project, my skills are honed and my knowledge is expanded.
+
+Should you be interested in discussing potential collaborations or wish to learn more about my work, I invite you to connect with me using the social icons at the bottom of the page, or reach out directly via email at `Joseph@Demarest.dev`.

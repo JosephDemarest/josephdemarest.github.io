@@ -14,41 +14,50 @@ profiles:
     content: beerus.md
     image_circular: false # crops the image to make it circular
     more_info:
+
+    align: left
     image: peppa_pic.jpg
     content: peppa.md
     image_circular: false # crops the image to make it circular
     more_info:
+
     - align: right
     image: dee_dee_pic.jpg
     content: deedee.md
     image_circular: false # crops the image to make it circular
     more_info:
+
   - align: left
     image: bella_pic.jpg
     content: bella.md
     image_circular: false # crops the image to make it circular
     more_info:
+
     - align: right
     image: sissy_pic.jpg
     content: sissy.md
     image_circular: false # crops the image to make it circular
     more_info:
+
   - align: left
     image: bean_pic.jpg
     content: bean.md
     image_circular: false # crops the image to make it circular
     more_info:
+
     - align: right
     image: bluey_pic.jpg
     content: bluey.md
     image_circular: false # crops the image to make it circular
     more_info:
+
   - align: left
     image: tee_tee_pic.jpg
     content: teetee.md
     image_circular: false # crops the image to make it circular
     more_info:
-  - align: left
+
+  - align: right
     image: peanut_and_nigget_pic.jpg
     content: peanut_and_nugget.md
     image_circular: false # crops the image to make it circular

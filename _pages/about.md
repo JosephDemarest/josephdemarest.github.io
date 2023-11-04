@@ -9,18 +9,23 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Central Park West & 79th St</p>
+    <p>New York City, New York, 10024</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+As a dynamic and multifaceted engineer, I possess comprehensive expertise in `computer science`, `electrical engineering`, and `additive manufacturing`. My professional journey is documented through an extensive portfolio of [projects](https://demarest.dev/projects/), showcasing a spectrum from intricate software development to the nuanced art of hardware design, among an eclectic mix of other undertakings.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My core strength lies in my exceptional ability to `bridge multiple disciplines`, a skill that empowers me to craft innovative and streamlined solutions. This interdisciplinary approach has become my trademark in the engineering sphere, and I thrive when presented with new puzzles to `solve`. By drawing from my broad-based technical acumen, I am well-equipped to confront and dismantle even the most daunting of problems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Beyond my engineering talents, I am fervently committed to perpetual learning, an enthusiasm that fuels my ambition to continuously broaden my expertise across a vast range of subjects.
+
+In my personal pursuits, I am profoundly passionate about all things technology, science, and the cosmos — from the enigmas of space and astronomy to the latest tech breakthroughs. This zeal extends beyond mere interest; it is the backbone of my professional philosophy. I possess the unique capability to assimilate concepts from multiple disciplines, including those outside my immediate expertise, to forge exceptional results.
+
+My ethos is one of ceaseless creation and education. I am devoted to a life where making and learning go hand-in-hand, ensuring that with each new project, my skills are honed and my knowledge is expanded.
+
+Should you be interested in discussing potential collaborations or wish to learn more about my work, I invite you to connect with me using the social icons at the bottom of the page, or reach out directly via email at `Joseph@Demarest.dev`.

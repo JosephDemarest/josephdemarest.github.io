@@ -15,13 +15,13 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info:
 
-    align: left
+  - align: left
     image: peppa_pic.jpg
     content: peppa.md
     image_circular: false # crops the image to make it circular
     more_info:
 
-    - align: right
+  - align: right
     image: dee_dee_pic.jpg
     content: deedee.md
     image_circular: false # crops the image to make it circular
@@ -33,7 +33,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info:
 
-    - align: right
+  - align: right
     image: sissy_pic.jpg
     content: sissy.md
     image_circular: false # crops the image to make it circular
@@ -45,7 +45,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info:
 
-    - align: right
+  - align: right
     image: bluey_pic.jpg
     content: bluey.md
     image_circular: false # crops the image to make it circular
@@ -58,7 +58,7 @@ profiles:
     more_info:
 
   - align: right
-    image: peanut_and_nigget_pic.jpg
+    image: peanut_and_nugget_pic.jpg
     content: peanut_and_nugget.md
     image_circular: false # crops the image to make it circular
     more_info:

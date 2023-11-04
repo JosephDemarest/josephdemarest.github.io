@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://josephdemarest.github.io//sitemap.xml
+Sitemap: https://demarest.dev//sitemap.xml

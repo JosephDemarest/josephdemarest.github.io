@@ -1,38 +1,39 @@
-// Catppuccin Mocha for dark mode
-// Catppuccin Latte for light mode
-// Variables maintain original names for compatibility
+/*******************************************************************************
+ * Variables used throughout the theme.
+ * To adjust anything, simply edit the variables below and rebuild the theme.
+ ******************************************************************************/
 
-// Colors - using Mauve as a base where it makes sense
-$red-color:           #f38ba8 !default; // Mocha Red for dark, Latte Red for light
-$red-color-dark:      #eba0ac !default; // Mocha Maroon for dark, Latte Maroon for light
-$orange-color:        #fab387 !default; // Mocha Peach for dark, Latte Peach for light
-$blue-color:          #89b4fa !default; // Mocha Blue for dark, Latte Blue for light
-$blue-color-dark:     #74c7ec !default; // Mocha Sapphire for dark, Latte Sapphire for light
-$cyan-color:          #94e2d5 !default; // Mocha Teal for dark, Latte Teal for light
-$light-cyan-color:    lighten($cyan-color, 25%) !default;
-$green-color:         #a6e3a1 !default; // Mocha Green for dark, Latte Green for light
-$green-color-lime:    #B7D12A !default; // Similar across both themes
-$green-color-dark:    #40a02b !default; // Latte Green for light, darken for dark
-$green-color-light:   #ddffdd !default; // Light green for both themes
-$green-color-bright:  #11D68B !default; // Bright variant for both themes
-$purple-color:        #cba6f7 !default; // Mocha Mauve for dark, Latte Mauve for light
-$light-purple-color:  lighten($purple-color, 25%) !default;
-$pink-color:          #f5c2e7 !default; // Mocha Pink for dark, Latte Pink for light
-$pink-color-light:    #ffdddd !default; // Light pink for both themes
-$yellow-color:        #f9e2af !default; // Mocha Yellow for dark, Latte Yellow for light
+// Colors
+$red-color:           #FF3636 !default;
+$red-color-dark:      #B71C1C !default;
+$orange-color:        #F29105 !default;
+$blue-color:          #0076df !default;
+$blue-color-dark:     #00369f !default;
+$cyan-color:          #2698BA !default;
+$light-cyan-color:    lighten($cyan-color, 25%);
+$green-color:         #00ab37 !default;
+$green-color-lime:    #B7D12A !default;
+$green-color-dark:    #009f06 !default;
+$green-color-light:   #ddffdd !default;
+$green-color-bright:  #11D68B !default;
+$purple-color:        #B509AC !default;
+$light-purple-color:  lighten($purple-color, 25%);
+$pink-color:          #f92080 !default;
+$pink-color-light:    #ffdddd !default;
+$yellow-color:        #efcc00 !default;
 
-// Greys - transition between light and dark themes
-$grey-color:          #828282 !default; // A neutral grey for both themes
-$grey-color-light:    lighten($grey-color, 40%) !default;
-$grey-color-dark:     #1C1C1D !default; // Darker for dark mode, slightly lighter for light mode
-$grey-900:            #212529 !default; // Dark base for both themes
+$grey-color:          #828282 !default;
+$grey-color-light:    lighten($grey-color, 40%);
+$grey-color-dark:     #1C1C1D;
+$grey-900:            #212529;
 
-$white-color: #ffffff !default; // White for both themes
-$black-color: #000000 !default; // Black for both themes
+$white-color: #ffffff !default;
+$black-color: #000000 !default;
 
 // Theme colors
-$code-bg-color-light: rgba($purple-color, 0.05) !default; // Light theme code background
-$code-bg-color-dark:  #313244 !default; // Dark theme code background (Mocha Base)
+
+$code-bg-color-light:     rgba($purple-color, 0.05);
+$code-bg-color-dark:      #2c3237 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";

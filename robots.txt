@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://josephdemarest.github.io//al-folio/sitemap.xml
+Sitemap: https://josephdemarest.github.io//sitemap.xml

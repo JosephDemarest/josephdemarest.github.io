@@ -10,19 +10,54 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: beerus_pic.jpg
+    content: beerus.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    more_info:
+    image: beerus_pic.jpg
+    image: peppa_pic.jpg
+    content: peppa.md
+    image_circular: false # crops the image to make it circular
+    more_info:
+    - align: right
+    image: dee_dee_pic.jpg
+    content: dee_dee.md
+    image_circular: false # crops the image to make it circular
+    more_info:
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: bella_pic.jpg
+    content: bella.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    more_info:
+    - align: right
+    image: sissy_pic.jpg
+    content: sissy.md
+    image_circular: false # crops the image to make it circular
+    more_info:
+  - align: left
+    image: bean_pic.jpg
+    content: bean.md
+    image_circular: false # crops the image to make it circular
+    more_info:
+    - align: right
+    image: bluey_pic.jpg
+    content: bluey.md
+    image_circular: false # crops the image to make it circular
+    more_info:
+  - align: left
+    image: tee_tee_pic.jpg
+    content: teetee.md
+    image_circular: false # crops the image to make it circular
+    more_info:
+    - align: right
+    image: dee_dee_pic.jpg
+    content: deedee.md
+    image_circular: false # crops the image to make it circular
+    more_info:
+  - align: left
+    image: peanut_and_nigget_pic.jpg
+    content: peanut_and_nugget.md
+    image_circular: false # crops the image to make it circular
+    more_info:
+
 ---

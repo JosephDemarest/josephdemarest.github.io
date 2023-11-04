@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /learning/
-title: Learning
+title: learning
 description: A collection of my solutions to complex problems and notes on a range of scientific and mathematical topics.
 nav: true
 nav_order: 5
@@ -38,7 +38,7 @@ Here you can find my notes on a broad range of subjects within mathematics and s
 - [Differential Equations](/notes/differential_equations.md)
 - [Discrete Math](/notes/discrete_math.md)
 - [Statistics](/notes/statistics.md)
-- [Advanced Mathematics](/notes/advanced_mathematics.md)
+- [Number Theory](/notes/number_theory.md)
 
 ### Physics
 - [Physics I](/notes/physics_i.md)

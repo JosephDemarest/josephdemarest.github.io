@@ -1,8 +1,8 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+permalink: /cats/
+title: cats
+description: My cat family
 nav: true
 nav_order: 6
 

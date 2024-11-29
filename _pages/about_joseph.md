@@ -1,21 +1,3 @@
----
-layout: about
-title: about
-permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>United States</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
----
-
 As a dynamic and multifaceted engineer, I possess comprehensive expertise in `computer science`, `electrical engineering`, and `additive manufacturing`. My professional journey is documented through an extensive portfolio of [projects](https://demarest.dev/projects/), showcasing a spectrum from intricate software development to the nuanced art of hardware design, among an eclectic mix of other undertakings.
 
 My core strength lies in my exceptional ability to `bridge multiple disciplines`, a skill that empowers me to craft innovative and streamlined solutions. This interdisciplinary approach has become my trademark in the engineering sphere, and I thrive when presented with new puzzles to `solve`. By drawing from my broad-based technical acumen, I am well-equipped to confront and dismantle even the most daunting of problems.

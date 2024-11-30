@@ -8,74 +8,69 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Below, you'll find an in-depth look at its core features and capabilities, with images to help illustrate its power and versatility.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="Hardware Integration" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="Data Visualization" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="User Interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The images show: On the left, TEC control; in the middle, camera integration; and on the right, data visualization and real-time image statistics.
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Image Processing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    This image illustrates a live heatmap, visually representing intensity differences for easy analysis.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The Laser Beam Profiler is designed to provide a cost-effective yet highly efficient solution for capturing and analyzing laser beam properties. With its flexible software architecture, it delivers a powerful set of features:
 
+- **Hardware Control**:
+  - *Camera Integration*: The profiler seamlessly connects to a variety of cameras, using open source and proprietary APIs, with adjustable settings for all camera features to ensure optimal image capture.
+  - *TEC Integration*: The profiler can control multiple TEC (Thermoelectric Cooler) devices to analyze temperature-related characteristics of the laser.
+- **Image Acquisition and Processing**:
+  - *Image Processing*: Captures high-quality raw images using both monochrome and color cameras. It applies non-destructive transformations and sophisticated heatmaps to enhance visual analysis while preserving the original data integrity. Furthermore, it generates comprehensive statistics, offering insights that make image analysis more effective and precise.
+  - *Live Processing*: The system supports real-time image processing, allowing for instant visual analysis with adjustable thresholds and adaptable color mapping to easily distinguish differences across various regions. Additionally, users can define regions of interest (ROI) for focused analysis, enabling targeted insights into specific areas while maintaining a smooth and intuitive user experience.
+  
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/6.jpg" title="Live Processing Display" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/11.jpg" title="ROI Selection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The left image showcases different real-time image adjustments, while the right image focuses on camera configuration settings.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **Data Visualization**:
+  - *Image Display*: Uses PyQtGraph for real-time image visualization, featuring custom colormaps for greater clarity.
+  - *Statistical Analysis*: Provides a full statistical breakdown of captured images, including detailed region-specific information (ROI analysis).
 
-{% raw %}
+- **User Interface (GUI)**:
+  - *Interactive Controls*: Easily control settings such as streaming, capturing images, changing laser housing temperature, toggling dark mode, and adjusting processing thresholds.
+  - *Tabbed Interface*: Features are grouped into intuitive tabs, making navigation simple and efficient.
+  - *Status Updates*: Displays the current camera settings and status information in real time.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **Data Saving and Export**:
+  - *Data Saving*: All captured data, including images, ROI data, program settings, and relevant statistics, can be saved in a timestamped directory for future reference.
+  - *Notes and Documentation*: Users can add notes to their sessions, improving traceability and documentation.
+  - *Configurations*: Allows for saving and loading of any number of configurations.
 
-{% endraw %}
+- **Threading and Performance**:
+  - *Multithreading*: To maintain the UI's responsiveness, separate threads are used for camera control and image processing.
+  - *Thread Safety*: Ensures safe access to shared resources, which is crucial for avoiding issues in concurrent operations.
+
+The Laser Beam Profiler is a sophisticated yet user-friendly tool, designed to make beam profiling accessible without compromising on the quality of data or the efficiency of the workflow. 

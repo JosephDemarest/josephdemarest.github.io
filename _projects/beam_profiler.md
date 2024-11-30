@@ -12,22 +12,19 @@ Discover the Beam Profiler—a versatile, high-performance tool built for flexib
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="Hardware Integration" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/tec_control.png" title="TEC Integration" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="Data Visualization" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="User Interface" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/3D_heatmap.png" title="3D Heatmap" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    The images showcase: TEC control on the left, camera integration in the middle, and real-time data visualization on the right.
+    The images showcase: TEC control on the left, and live mesh heatmap on the right.
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Image Processing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/live_heatmap" title="Image Processing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -46,14 +43,14 @@ The Laser Beam Profiler is an innovative, multiplatform solution that works seam
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="Live Processing Display" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/camera_integration.png" title="Camera Integration" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="ROI Selection" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/config.png" title="ROI Selection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Showcasing dynamic, real-time processing. Right: Highlighting ROI-based analysis.
+    Left: Showcasing camera integration. Right: Highlighting configuration options.
 </div>
 
 - **Data Visualization**:

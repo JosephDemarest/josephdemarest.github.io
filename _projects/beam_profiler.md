@@ -10,7 +10,7 @@ related_publications: true
 
 Discover the Beam Profiler—a versatile, high-performance tool built for flexibility and efficiency. Below, you'll find an in-depth look at its core features and capabilities, complete with images to showcase its potential in action.
 
-<div class="row">
+<div class="row" style="display: flex; align-items: flex-start;">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/tec_control.png" title="TEC Integration" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -41,7 +41,7 @@ The Laser Beam Profiler is an innovative, multiplatform solution that works seam
   - *High-Fidelity Image Processing*: Captures pristine raw images using both monochrome and color cameras. Applies advanced, non-destructive transformations, alongside vibrant heatmaps, to aid in interpretation while safeguarding data integrity. Comprehensive statistics enhance analysis effectiveness.
   - *Real-Time Processing*: Enables on-the-fly adjustments with responsive live image processing. Features include adaptable thresholds, color mapping, and customizable regions of interest (ROI) for precise focus, delivering actionable insights instantaneously.
 
-<div class="row justify-content-sm-center">
+<div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/camera_integration.png" title="Camera Integration" class="img-fluid rounded z-depth-1" %}
     </div>

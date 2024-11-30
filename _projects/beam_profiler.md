@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-Discover the Beam Profiler—a versatile, high-performance tool built for flexibility and efficiency. Below, you'll find an in-depth look at its core features and capabilities, complete with images to showcase its potential in action.
+A versatile, high-performance beam profiler built for flexibility and efficiency. Below, you'll find an in-depth look at its core features and capabilities, complete with images to showcase its potential in action.
 
 <div class="row" style="display: flex; align-items: flex-start;">
     <div class="col-sm mt-3 mt-md-0">
@@ -39,7 +39,7 @@ The Laser Beam Profiler is an innovative, multiplatform solution that works seam
   
 - **Image Acquisition and Processing**:
   - *High-Fidelity Image Processing*: Captures pristine raw images using both monochrome and color cameras. Applies advanced, non-destructive transformations, alongside vibrant heatmaps, to aid in interpretation while safeguarding data integrity. Comprehensive statistics enhance analysis effectiveness.
-  - *Real-Time Processing*: Enables on-the-fly adjustments with responsive live image processing. Features include adaptable thresholds, color mapping, and customizable regions of interest (ROI) for precise focus, delivering actionable insights instantaneously.
+  - *Real-Time Processing*: Enables on-the-fly adjustments with responsive live image processing. Features include color mapping, customizable regions of interest (ROI), and more, delivering actionable insights instantaneously.
 
 <div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -58,18 +58,18 @@ The Laser Beam Profiler is an innovative, multiplatform solution that works seam
   - *Comprehensive Analytics*: Includes robust statistical tools for analyzing entire images or specific regions, ensuring informed decision-making.
 
 - **User-Friendly Interface**:
-  - *Interactive Controls*: Fine-tune settings such as streaming, image capture, laser temperature adjustments, and dark mode toggling, all with a few clicks.
+  - *Interactive Controls*: Fine-tune settings such as streaming, image capture, laser temperature adjustments, dark mode toggling, and more, all with a few clicks.
   - *Organized Navigation*: Features a tabbed interface to neatly group functions, ensuring a smooth workflow.
-  - *Real-Time Feedback*: Live status updates and camera configurations keep users informed at all times.
+  - *Real-Time Feedback*: Live status updates and logging keep users informed at all times.
 
 - **Data Saving and Export**:
   - *Intelligent Data Management*: Captures and stores images, ROIs, and related metadata in timestamped directories for easy retrieval.
-  - *Cloud Integration*: Experiments are automatically uploaded to a centralized cloud database, complete with tags and advanced search capabilities, so you can revisit past data effortlessly.
-  - *Detailed Session Notes*: Supports the addition of session notes, enhancing traceability and documentation.
-  - *Configuration Flexibility*: Save and load customized configurations to quickly adapt to different experiments.
+  - *Cloud Integration*: Experiments can be automatically uploaded to a centralized cloud database, complete with tags and advanced search capabilities, so users may revisit past data effortlessly.
+  - *Detailed Experimental Notes and Tags*: Supports the addition of experimental notes and Tags, enhancing traceability and documentation.
+  - *Configuration Flexibility*: Save and load customized configurations to quickly adapt to different experiments and hardware configurations.
 
 - **Performance Optimization**:
   - *Multithreading Mastery*: Ensures a responsive user experience by separating tasks like camera control and image processing into dedicated threads.
   - *Rock-Solid Thread Safety*: Guarantees smooth, error-free operation even during concurrent tasks.
 
-The Beam Profiler goes beyond the ordinary, combining high functionality with effortless usability. Its advanced architecture delivers compatibility across platforms, superior performance, and a user-focused experience—making it the ultimate tool for beam profiling.
+The Beam Profiler goes beyond the ordinary, combining high functionality with effortless usability and low-cost. Its advanced architecture delivers compatibility across platforms, superior performance, and a user-focused experience—making it the ultimate tool for beam profiling.

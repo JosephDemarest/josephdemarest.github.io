@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Custom Keyboard
+title: Keyboard
 description: Custom Keyboard designed in KiCad and SolidWorks
 img: assets/img/6.jpg
 importance: 4

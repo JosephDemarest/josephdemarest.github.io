@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: CyberDeck
+description: Multi-SBC, Modular Cyberdeck designed in SolidWorks
+img: assets/img/6.jpg
 importance: 4
 category: fun
 ---

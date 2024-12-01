@@ -2,7 +2,7 @@
 layout: page
 title: Beam Profiler
 description: Low Cost, Multiplatform, SBC, Data Collection & Analysis
-img: assets/img/beamprofiler_main_image.jpg
+img: assets/img/live_heatmap.png
 importance: 1
 category: work
 related_publications: true

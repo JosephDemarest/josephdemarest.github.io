@@ -27,7 +27,10 @@
     {
       "institution": "University at Buffalo",
       "area": "Electrical Engineering",
-      "studyType": "Bachelor of Engineering (On Hold)"
+      "studyType": "Bachelor of Engineering (On Hold)",
+      "courses": [
+        "96/120 credits"
+      ]
     }
   ],
   "work": [

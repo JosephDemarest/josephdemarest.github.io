@@ -11,10 +11,10 @@ related_publications: true
 Introducing a versatile and high-performance Beam Profiler designed for flexibility and efficiency. Below is an in-depth look at its core features and capabilities, complete with images that showcase its potential in action.
 
 <div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/tec_control.png" title="TEC Integration" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3D_heatmap.png" title="3D Heatmap" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
     </div>
 </div>

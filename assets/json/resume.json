@@ -4,7 +4,7 @@
     "label": "Software Engineer",
     "image": "",
     "email": "joseph@demarest.dev",
-    "phone": "",
+    "phone": "1-347-330-4843",
     "url": "demarest.dev",
     "summary": "Full-stack developer and embedded systems engineer with experience in Python/C++ development, IoT solutions, and educational mentorship",
     "location": {
@@ -60,6 +60,18 @@
         "Boosted average student grades by ~1.5 letter points",
         "Reduced recurring errors by 60% through custom practice exercises"
       ]
+    },
+    {
+      "name": "Rite Aid",
+      "position": "Cashier -> Assistant Manager",
+      "url": "",
+      "startDate": "2017-05-01",
+      "endDate": "2021-02-03",
+      "summary": "Provided individualized CS instruction",
+      "highlights": [
+        "Oversaw daily store operations, including staff scheduling, inventory management, and financial documentation",
+        "Trained and supervised new hires on POS procedures and store protocols"
+      ]
     }
   ],
   "education": [
@@ -71,6 +83,17 @@
       "studyType": "BS",
       "startDate": "",
       "endDate": "2023-12-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University at Buffalo",
+      "location": "New York",
+      "url": "",
+      "area": "Electrical Engineering (in progress)",
+      "studyType": "BS",
+      "startDate": "",
+      "endDate": "2019-12-01",
       "score": "",
       "courses": []
     }

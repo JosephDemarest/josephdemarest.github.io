@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://josephdemarest.github.io/al-folio/sitemap.xml
+User-agent: * Disallow: Sitemap: https://demarest.dev/sitemap.xml

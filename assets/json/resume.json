@@ -154,6 +154,32 @@
       "startDate": "2022-01-01",
       "endDate": "2022-01-01",
       "url": ""
+    },
+    {
+      "name": "CyberDeck",
+      "summary": "Multi-SBC, Modular Cyberdeck designed in SolidWorks. A rugged, modular cyberdeck that integrates multiple single-board computers into one cohesive, portable system ideal for on-the-go computing and field operations.",
+      "highlights": [
+        "Designed multi-SBC integration using SolidWorks",
+        "Modular architecture for easy expansion",
+        "Portable design suited for field operations",
+        "Robust build for demanding environments"
+      ],
+      "startDate": "2023-01-01",
+      "endDate": "2023-01-01",
+      "url": ""
+    },
+    {
+      "name": "Plant Monitoring PCB",
+      "summary": "Modular Plant Monitoring IoT PCB, 3D Printed, designed in KiCad and SolidWorks. A comprehensive solution for smart agriculture featuring integrated environmental sensors, a rugged enclosure, and seamless IoT connectivity for real-time monitoring.",
+      "highlights": [
+        "Engineered custom PCB in KiCad with integrated sensors",
+        "Designed a rugged, 3D printed enclosure in SolidWorks",
+        "Enabled seamless IoT connectivity for remote monitoring",
+        "Modular design scalable for agricultural applications"
+      ],
+      "startDate": "2022-06-01",
+      "endDate": "2022-06-01",
+      "url": ""
     }
   ],
   "certificates": [],

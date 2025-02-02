@@ -12,10 +12,10 @@ A Flutter-powered sports notification system that transforms natural language ru
 
 <div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/alert_rule_creator.png" title="Rule Configuration" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Rule Configuration" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/alert_types.png" title="Multi-Channel Delivery" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Multi-Channel Delivery" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -24,7 +24,7 @@ A Flutter-powered sports notification system that transforms natural language ru
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/live_scores.png" title="Live Game Monitoring" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Live Game Monitoring" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -45,10 +45,10 @@ The Sports Alert Engine revolutionizes fan engagement through its **natural lang
 
 <div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/api_diagram.png" title="System Architecture" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sea.jpg" title="System Architecture" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
     </div>
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/alert_workflow.png" title="Event Processing" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sea.jpg" title="Event Processing" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

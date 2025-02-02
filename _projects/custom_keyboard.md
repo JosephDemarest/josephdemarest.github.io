@@ -1,80 +1,74 @@
 ---
 layout: page
-title: Keyboard
-description: Custom Keyboard designed in KiCad and SolidWorks
-img: assets/img/6.jpg
-importance: 4
-category: fun
+title: Open Source Keyboard
+description: Custom Mechanical Keyboard designed in KiCad and SolidWorks
+img: assets/img/keyboard_main.png
+importance: 1
+category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Introducing a fully custom mechanical keyboard project that redefines input device design with a perfect blend of advanced PCB layout and precision mechanical engineering. Designed in KiCad for the electronic circuitry and in SolidWorks for the enclosure and chassis, this project delivers a robust, ergonomic, and visually striking keyboard built for both professional typists and gaming enthusiasts.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="PCB Layout in KiCad" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Enclosure Design in SolidWorks" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
   </div>
 </div>
-```
+<div class="caption">
+  Left: Detailed PCB layout created in KiCad. Right: 3D rendered enclosure design from SolidWorks.
+</div>
 
-{% endraw %}
+## Overview
+
+This project demonstrates how innovative electronics design and mechanical fabrication converge to produce a one-of-a-kind input device. Every detail—from circuit schematics to 3D-printed keycaps—has been meticulously crafted to provide an unparalleled user experience.
+
+## Design and Engineering
+
+- **Custom PCB Development:**  
+  The PCB, designed in KiCad, supports multiple mechanical switch configurations, RGB backlighting, and full programmability through QMK firmware.  
+- **Precision Mechanical Engineering:**  
+  The keyboard chassis and keycaps are modeled in SolidWorks with an emphasis on ergonomics, durability, and ease of assembly. Features include adjustable tilt angles, custom stabilizers, and integrated cable management.  
+- **Modular & Upgradeable:**  
+  The design is modular, allowing for future upgrades and easy repairs, ensuring the keyboard remains adaptable to evolving user needs.
+
+<div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Assembly Process" style="height: 250px; width: auto;" class="rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Switch & Keycap Details" style="height: 250px; width: auto;" class="rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Dynamic Backlighting" style="height: 250px; width: auto;" class="rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  A glimpse into the assembly process, close-up views of the mechanical components, and dynamic backlighting effects.
+</div>
+
+## Technical Highlights
+
+- **Programmable Firmware:**  
+  Integrated with QMK, the keyboard supports macros, multiple layers, and dynamic key remapping.
+- **RGB Lighting Effects:**  
+  Each key features individually addressable LEDs, enabling customizable lighting schemes.
+- **Ergonomic Optimization:**  
+  Designed for prolonged use, the layout minimizes finger fatigue while ensuring a satisfying tactile response.
+- **High Durability:**  
+  Built with premium components and materials, ensuring longevity even under intense usage.
+
+## User Experience and Future Enhancements
+
+This Custom Keyboard not only excels in functionality but also stands as a statement of craftsmanship. Future enhancements include:
+- **Wireless Connectivity:**  
+  Adding Bluetooth or RF modules for a cordless experience.
+- **Smart Integration:**  
+  Syncing lighting effects with system notifications and ambient conditions.
+- **Enhanced Customization:**  
+  Continued refinement of keycap profiles and modular components for even greater personalization.
+
+Experience the perfect harmony of art and engineering in every keystroke.

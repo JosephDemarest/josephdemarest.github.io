@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WiFi Cameras Project
+title: Low-Cost Wireless Imaging System
 description: Low-Cost, Wireless Imaging System with Custom ESP32 Firmware and Advanced OpenCV Integration
 img: assets/img/wifi_cameras_ui.png
 importance: 1
@@ -12,10 +12,10 @@ Introducing an innovative WiFi Cameras Project that combines the affordability o
 
 <div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/camera_hardware.png" title="Custom Camera Hardware" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Custom Camera Hardware" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/remote_control_ui.png" title="Remote Control Interface" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Remote Control Interface" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -24,7 +24,7 @@ Introducing an innovative WiFi Cameras Project that combines the affordability o
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/live_feed.png" title="Live Feed & Image Analysis" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Live Feed & Image Analysis" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">

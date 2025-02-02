@@ -1,80 +1,76 @@
 ---
 layout: page
-title: Plant PCB
-description: Modular Plant Monitoring IoT PCB, 3D Printed, designed in Kicad and Solidworks
-img: assets/img/6.jpg
-importance: 4
-category: fun
+title: Plant Monitoring PCB
+description: Modular Plant Monitoring IoT PCB, 3D Printed, designed in KiCad and SolidWorks
+img: assets/img/plant_pcb_main.png
+importance: 1
+category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Introducing **Plant PCB** – a cutting-edge, modular IoT solution designed to monitor environmental conditions critical to plant health. Developed with precision in KiCad and housed in a durable, 3D-printed enclosure designed in SolidWorks, this project is ideal for modern agricultural and environmental applications.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="PCB Layout in KiCad" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="3D-Printed Enclosure in SolidWorks" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
   </div>
 </div>
-```
+<div class="caption">
+  Left: Detailed PCB layout crafted in KiCad. Right: Rugged, weather-resistant enclosure designed in SolidWorks.
+</div>
 
-{% endraw %}
+## Overview
+
+The Plant PCB project represents a smart, scalable approach to environmental monitoring. It integrates multiple sensors on a custom PCB to measure parameters such as soil moisture, temperature, humidity, and ambient light—all enclosed in a durable 3D-printed case for outdoor reliability.
+
+## Design and Engineering
+
+- **Custom PCB Engineering:**  
+  Designed in KiCad, the board incorporates various sensor interfaces, wireless communication modules, and power management circuitry tailored for low-energy operation.
+- **Robust Enclosure Design:**  
+  Using SolidWorks, the enclosure is optimized for outdoor use. It features weather-resistant sealing and an ergonomic form factor that facilitates easy mounting in diverse environments.
+- **Modularity and Scalability:**  
+  The architecture is modular, allowing for the integration of additional sensors or communication modules, making it adaptable to a wide range of monitoring scenarios.
+
+<div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Integrated Sensors" style="height: 250px; width: auto;" class="rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Device Assembly" style="height: 250px; width: auto;" class="rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Field Deployment" style="height: 250px; width: auto;" class="rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Integrated sensor modules, the assembly process, and real-world field deployment.
+</div>
+
+## Technical Highlights
+
+- **IoT Connectivity:**  
+  Equipped with WiFi (and optional LoRa modules), the device transmits real-time data to cloud-based platforms for remote monitoring.
+- **Energy Efficiency:**  
+  Optimized circuitry and low-power sensors ensure prolonged battery life even in remote deployments.
+- **User-Friendly Data Visualization:**  
+  Compatible with mobile and web dashboards that display real-time analytics and historical trends.
+- **Expandable Design:**  
+  The modular architecture allows for easy incorporation of additional sensors, making it suitable for diverse agricultural or research needs.
+
+## Applications and Future Enhancements
+
+Ideal for:
+- **Smart Agriculture:**  
+  Monitoring soil and environmental conditions to optimize irrigation and resource use.
+- **Environmental Research:**  
+  Collecting data for long-term studies on climate and ecosystem health.
+- **DIY and Maker Projects:**  
+  Providing a robust platform for hobbyists and innovators in the IoT space.
+
+Future improvements include incorporating advanced analytics with machine learning, integrating automated irrigation controls, and expanding sensor capabilities for broader environmental data capture.
+
+Plant PCB is a testament to the power of custom engineering and open-source innovation in creating practical, scalable solutions for modern agriculture and environmental monitoring.

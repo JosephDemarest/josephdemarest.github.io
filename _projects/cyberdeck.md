@@ -1,80 +1,76 @@
 ---
 layout: page
 title: CyberDeck
-description: Multi-SBC, Modular Cyberdeck designed in SolidWorks
-img: assets/img/6.jpg
-importance: 4
-category: fun
+description: Multi-SBC, Modular Cyberdeck designed in kicad and SolidWorks
+img: assets/img/cyberdeck_main.png
+importance: 1
+category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Introducing **CyberDeck** – a versatile, modular cyberdeck that redefines portable computing. Designed entirely in SolidWorks, this project integrates multiple single-board computers (SBCs) into a rugged, all-in-one platform. Whether you’re a hacker, maker, or field engineer, CyberDeck offers the performance and adaptability needed for a variety of demanding tasks.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="CyberDeck Front View" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Multi-SBC Interior" style="height: 300px; width: auto;" class="rounded z-depth-1" %}
   </div>
 </div>
-```
+<div class="caption">
+  Front view of the CyberDeck and an inside look at the multi-SBC integration.
+</div>
 
-{% endraw %}
+## Overview
+
+CyberDeck is engineered to provide a high-performance, portable computing solution through the integration of multiple SBCs within a rugged, modular chassis. Every aspect of the design has been carefully planned to balance functionality, durability, and ease of use.
+
+## Design and Engineering
+
+- **Multi-SBC Integration:**  
+  The platform seamlessly integrates several SBCs to harness parallel processing capabilities for complex tasks.  
+- **Modular Architecture:**  
+  The design is fully modular, enabling quick upgrades, repairs, or reconfigurations to suit various use cases.  
+- **Rugged Construction:**  
+  Crafted in SolidWorks, the chassis is built to withstand harsh environments while remaining lightweight and portable.
+- **Thermal Management:**  
+  Custom cooling solutions ensure that even under heavy workloads, the system remains stable and efficient.
+
+<div class="row justify-content-sm-center" style="display: flex; align-items: flex-start;">
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Modular Components" style="height: 250px; width: auto;" class="rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Connectivity & Ports" style="height: 250px; width: auto;" class="rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/sea.jpg" title="Custom Cooling System" style="height: 250px; width: auto;" class="rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Showcasing modular design components, extensive connectivity options, and the custom cooling system.
+</div>
+
+## Technical Highlights
+
+- **High-Performance Computing:**  
+  Multiple SBCs work concurrently to tackle complex computing tasks, making CyberDeck suitable for on-field diagnostics and creative projects.
+- **Extensive Connectivity:**  
+  With a variety of USB, HDMI, and Ethernet ports, the system supports numerous peripherals and external devices.
+- **User-Centric Interface:**  
+  Ergonomically designed for hands-on use, the cyberdeck offers intuitive controls and an accessible layout for efficient operation.
+- **Customizable Layout:**  
+  The modular design ensures that CyberDeck can be tailored to different tasks—be it hacking, media production, or engineering fieldwork.
+
+## Use Cases and Future Directions
+
+CyberDeck is ideal for:
+- **Portable Hacking & Penetration Testing:**  
+  Equipped to handle cybersecurity tasks on the go.
+- **Field Engineering:**  
+  Ideal for remote diagnostics and system troubleshooting.
+- **Creative and DIY Projects:**  
+  A flexible platform for makers and hobbyists.
+
+Future iterations may include wireless connectivity enhancements, AI-driven performance optimization, and advanced power management features. CyberDeck is not just a device—it’s a platform for innovation in portable computing.

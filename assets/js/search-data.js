@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of my cool projects.",
           section: "Navigation",
@@ -405,19 +398,19 @@ ninja.data = [{
           description: "Low Cost, Multiplatform, SBC, Data Collection &amp; Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/beam_profiler/";
-            },},{id: "projects-keyboard",
-          title: 'Keyboard',
-          description: "Custom Keyboard designed in KiCad and SolidWorks",
+            },},{id: "projects-open-source-keyboard",
+          title: 'Open Source Keyboard',
+          description: "Custom Mechanical Keyboard designed in KiCad and SolidWorks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/custom_keyboard/";
             },},{id: "projects-cyberdeck",
           title: 'CyberDeck',
-          description: "Multi-SBC, Modular Cyberdeck designed in SolidWorks",
+          description: "Multi-SBC, Modular Cyberdeck designed in kicad and SolidWorks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cyberdeck/";
-            },},{id: "projects-plant-pcb",
-          title: 'Plant PCB',
-          description: "Modular Plant Monitoring IoT PCB, 3D Printed, designed in Kicad and Solidworks",
+            },},{id: "projects-plant-monitoring-pcb",
+          title: 'Plant Monitoring PCB',
+          description: "Modular Plant Monitoring IoT PCB, 3D Printed, designed in KiCad and SolidWorks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/plant_pcb/";
             },},{id: "projects-sports-alert-engine",
@@ -425,8 +418,8 @@ ninja.data = [{
           description: "Real-Time Game Triggers with Natural Language Processing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sports_notifier/";
-            },},{id: "projects-wifi-cameras-project",
-          title: 'WiFi Cameras Project',
+            },},{id: "projects-low-cost-wireless-imaging-system",
+          title: 'Low-Cost Wireless Imaging System',
           description: "Low-Cost, Wireless Imaging System with Custom ESP32 Firmware and Advanced OpenCV Integration",
           section: "Projects",handler: () => {
               window.location.href = "/projects/wifi_cameras/";

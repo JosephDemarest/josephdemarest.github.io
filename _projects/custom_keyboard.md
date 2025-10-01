@@ -4,7 +4,7 @@ title: Open Source Keyboard
 description: Custom Mechanical Keyboard designed in KiCad and SolidWorks
 img: assets/img/keyboard_main.png
 importance: 1
-category: work
+category: fun
 related_publications: false
 ---
 

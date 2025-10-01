@@ -4,7 +4,7 @@ title: Plant Monitoring PCB
 description: Modular Plant Monitoring IoT PCB, 3D Printed, designed in KiCad and SolidWorks
 img: assets/img/plant_pcb_main.png
 importance: 1
-category: work
+category: fun
 related_publications: false
 ---
 

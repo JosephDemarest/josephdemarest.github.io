@@ -4,7 +4,7 @@ title: CyberDeck
 description: Multi-SBC, Modular Cyberdeck designed in kicad and SolidWorks
 img: assets/img/cyberdeck_main.png
 importance: 1
-category: work
+category: fun
 related_publications: false
 ---
 

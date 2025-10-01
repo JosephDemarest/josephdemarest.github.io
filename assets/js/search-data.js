@@ -393,11 +393,21 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-beam-profiler",
+          section: "News",},{id: "projects-automated-plant-watering-system",
+          title: 'Automated Plant Watering System',
+          description: "An IoT system to automate plant care.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/automated_plant_watering_system/";
+            },},{id: "projects-beam-profiler",
           title: 'Beam Profiler',
           description: "Low Cost, Multiplatform, SBC, Data Collection &amp; Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/beam_profiler/";
+            },},{id: "projects-containerized-pastebin-service",
+          title: 'Containerized Pastebin Service',
+          description: "A web service for sharing code snippets.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/containerized_pastebin_service/";
             },},{id: "projects-open-source-keyboard",
           title: 'Open Source Keyboard',
           description: "Custom Mechanical Keyboard designed in KiCad and SolidWorks",
@@ -408,6 +418,16 @@ ninja.data = [{
           description: "Multi-SBC, Modular Cyberdeck designed in kicad and SolidWorks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cyberdeck/";
+            },},{id: "projects-e-commerce-analytics-dashboard",
+          title: 'E-commerce Analytics Dashboard',
+          description: "An interactive dashboard to visualize and analyze e-commerce transaction data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ecommerce_analytics_dashboard/";
+            },},{id: "projects-fly-scan-system",
+          title: 'Fly-Scan System',
+          description: "An advanced, high-speed data acquisition system for capturing detailed optical component characteristics using continuous motion.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fly_scan_system/";
             },},{id: "projects-plant-monitoring-pcb",
           title: 'Plant Monitoring PCB',
           description: "Modular Plant Monitoring IoT PCB, 3D Printed, designed in KiCad and SolidWorks",
@@ -418,6 +438,11 @@ ninja.data = [{
           description: "Real-Time Game Triggers with Natural Language Processing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sports_notifier/";
+            },},{id: "projects-web-server-log-processor",
+          title: 'Web Server Log Processor',
+          description: "An ETL script to parse, clean, and analyze web server logs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/web_server_log_processor/";
             },},{id: "projects-low-cost-wireless-imaging-system",
           title: 'Low-Cost Wireless Imaging System',
           description: "Low-Cost, Wireless Imaging System with Custom ESP32 Firmware and Advanced OpenCV Integration",
